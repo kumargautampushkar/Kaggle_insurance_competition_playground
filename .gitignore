@@ -1,0 +1,41 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore database files (if applicable)
+*.db
+*.sqlite3
+
+# Ignore environment-specific files (optional)
+.env
+
+# Ignore compiled files (optional)
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ignore dataset
+/playground-series-s4e12
+playground-series-s4e12.zip
